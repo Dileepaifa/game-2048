@@ -14,7 +14,7 @@ spec:
         app.kubernetes.io/name: app-2048
     spec:
       containers:
-      - image: sourav98/flappybird:latest
+      - image: sourav98/flappybird
         imagePullPolicy: Always
         name: app-2048
         ports:
